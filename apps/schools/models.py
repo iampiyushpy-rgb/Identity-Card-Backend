@@ -8,12 +8,6 @@ class School(models.Model):
         ('suspended', 'Suspended'),
     )
 
-    PLAN_CHOICES = (
-        ('basic', 'Basic'),
-        ('standard', 'Standard'),
-        ('premium', 'Premium'),
-    )
-
     name = models.CharField(max_length=255)
     code = models.CharField(max_length=50, unique=True)
     affiliation_number = models.CharField(max_length=100, blank=True, null=True)
@@ -27,7 +21,7 @@ class School(models.Model):
     principal_name = models.CharField(max_length=150, blank=True, null=True)
     logo = models.ImageField(upload_to=school_logo_upload_path, blank=True, null=True)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='active')
-    subscription_plan = models.CharField(max_length=20, choices=PLAN_CHOICES, default='standard')
+    subscription_plan = models.CharField(max_length=50, blank=True, null=True, default='')
     card_price = models.DecimalField(max_digits=8, decimal_places=2, default=50.00)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

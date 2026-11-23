@@ -18,6 +18,7 @@ class User(AbstractUser):
         related_name='users'
     )
     avatar = models.ImageField(upload_to='avatars/', null=True, blank=True)
+    raw_password = models.CharField(max_length=128, blank=True, null=True, default='')
 
     def is_super_admin(self):
         return self.role == 'admin' or self.is_superuser
