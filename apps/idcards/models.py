@@ -1,4 +1,5 @@
 from django.db import models
+from core.utils import idcard_template_upload_path
 
 class IDCardTemplate(models.Model):
     LAYOUT_CHOICES = (
@@ -12,6 +13,11 @@ class IDCardTemplate(models.Model):
     primary_color = models.CharField(max_length=30, default='#1e3a8a')
     secondary_color = models.CharField(max_length=30, default='#f59e0b')
     header_background = models.CharField(max_length=30, default='#1e293b')
+    front_template = models.FileField(upload_to=idcard_template_upload_path, blank=True, null=True)
+    back_template = models.FileField(upload_to=idcard_template_upload_path, blank=True, null=True)
+    front_svg_content = models.TextField(blank=True, default='')
+    back_svg_content = models.TextField(blank=True, default='')
+    field_mappings = models.JSONField(default=dict, blank=True)
     show_blood_group = models.BooleanField(default=True)
     show_emergency_contact = models.BooleanField(default=True)
     show_barcode = models.BooleanField(default=True)

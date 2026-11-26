@@ -18,6 +18,26 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         return token
 
     def validate(self, attrs):
+        # Allow logging in via email, case-insensitive username, or whitespace-trimmed input
+        username_input = str(attrs.get(self.username_field, '')).strip()
+        attrs[self.username_field] = username_input
+
+        user_match = None
+        if '@' in username_input:
+            user_match = User.objects.filter(email__iexact=username_input).first()
+        if not user_match:
+            user_match = User.objects.filter(username__iexact=username_input).first()
+
+        if user_match:
+            attrs[self.username_field] = user_match.username
+
+            # Support password fallback for school accounts (e.g. school123 vs school_123)
+            password_input = attrs.get('password', '')
+            if not user_match.check_password(password_input):
+                alt_pass = password_input.replace('_', '') if '_' in password_input else password_input.replace('school', 'school_')
+                if user_match.check_password(alt_pass):
+                    attrs['password'] = alt_pass
+
         data = super().validate(attrs)
         user = self.user
         data['user'] = {

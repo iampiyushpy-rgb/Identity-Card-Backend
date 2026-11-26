@@ -16,6 +16,13 @@ def school_logo_upload_path(instance, filename):
     filename = f"logo_{uuid.uuid4().hex[:8]}.{ext}"
     return os.path.join('school_logos', filename)
 
+def idcard_template_upload_path(instance, filename):
+    """Generate clean upload path for school ID card template assets (SVG/PNG/JPG)."""
+    ext = filename.split('.')[-1].lower()
+    clean_name = f"tpl_{uuid.uuid4().hex[:12]}.{ext}"
+    school_id = instance.school.id if instance.school else 'default'
+    return os.path.join('idcard_templates', f'school_{school_id}', clean_name)
+
 class StandardResultsSetPagination(PageNumberPagination):
     page_size = 20
     page_size_query_param = 'page_size'

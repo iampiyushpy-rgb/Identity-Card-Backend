@@ -10,6 +10,7 @@ class Student(models.Model):
 
     CARD_STATUS_CHOICES = (
         ('pending', 'Pending'),
+        ('approved', 'Approved'),
         ('printed', 'Printed'),
         ('delivered', 'Delivered'),
     )
@@ -27,12 +28,14 @@ class Student(models.Model):
     emergency_contact = models.CharField(max_length=20, blank=True, null=True)
     address = models.TextField(blank=True, null=True)
     photo = models.ImageField(upload_to=student_photo_upload_path, blank=True, null=True)
+    photo_number = models.CharField(max_length=50, blank=True, null=True)
 
     current_session = models.ForeignKey('academics.AcademicSession', on_delete=models.SET_NULL, null=True, blank=True, related_name='students')
     current_class = models.ForeignKey('academics.ClassLevel', on_delete=models.SET_NULL, null=True, blank=True, related_name='students')
     current_section = models.ForeignKey('academics.Section', on_delete=models.SET_NULL, null=True, blank=True, related_name='students')
 
     id_card_status = models.CharField(max_length=20, choices=CARD_STATUS_CHOICES, default='pending')
+    extra_fields = models.JSONField(default=dict, blank=True)
     is_active = models.BooleanField(default=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

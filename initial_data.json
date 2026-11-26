@@ -1,857 +1,881 @@
 [
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$h1uHSO7EdiIRpLeXIw68Ne$rvkuwDrr0QzmADPnD6hUmZLdHk2ticefRqSNZAOBQqQ=",
-    "last_login": null,
-    "is_superuser": true,
-    "username": "admin",
-    "first_name": "Akash",
-    "last_name": "Kumar",
-    "email": "admin@techravisha.com",
-    "is_staff": true,
-    "is_active": true,
-    "date_joined": "2026-09-12T09:10:14.963Z",
-    "role": "admin",
-    "phone": "7005655455",
-    "school": null,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$h1uHSO7EdiIRpLeXIw68Ne$rvkuwDrr0QzmADPnD6hUmZLdHk2ticefRqSNZAOBQqQ=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "Akash",
+      "last_name": "Kumar",
+      "email": "admin@techravisha.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2026-09-12T09:10:14.963Z",
+      "role": "admin",
+      "phone": "7005655455",
+      "school": null,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$13pdoMS99B6bx1S5SNMHoo$MMbJPycQON/hQUdp382/HlH1pHAwEcbh7onJhWs67RE=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "school_sch001",
+      "first_name": "Dr. Robert",
+      "last_name": "Vance",
+      "email": "admin@stxaviers.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-12T09:10:15.623Z",
+      "role": "school",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "school123",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$D7wW90fthaF8w0ob74qxSd$JevczsbFB2f5Nj0bFaVlMPV5OX5JyITHv2Ir1uDFKWU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "teacher_sarah",
+      "first_name": "Sarah",
+      "last_name": "Jenkins",
+      "email": "sarah.jenkins@stxaviers.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-12T09:10:16.466Z",
+      "role": "teacher",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$9E6zFBHD2sUpeQmJ0zPYZm$ZyH7PEGQIrZdUCsVrs5EGKwcFRg8cV01gCRRSDAmxSc=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "teacher_alan",
+      "first_name": "Alan",
+      "last_name": "Turing II",
+      "email": "alan.turing@stxaviers.edu",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-12T09:10:17.123Z",
+      "role": "teacher",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$870000$5KjxuGWhKxmKbXcZrqZs3D$hX7enXiGwZepZ3L+bTbMxPhpVXZmDJnQ7lm89biIJM4=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "school_sp",
+      "first_name": "Mr.Kailash Mahto",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-09-12T10:11:40.561Z",
+      "role": "school",
+      "phone": null,
+      "school": 2,
+      "avatar": "",
+      "raw_password": "school123",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$y8gdmwc58yugKqaiKHcHRr$Q+B3Q5h/2X+gyoKYA4WFIlDMM0HJj1enAIeYLG1xTOY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sch001_sarah",
+      "first_name": "Sarah",
+      "last_name": "Jenkins",
+      "email": "sch001_sarah@school.internal",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-26T12:05:54.395Z",
+      "role": "teacher",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$gArDgeRnJtnluvy9d9KbsG$Abum+WzGUg4akJxqDg4JIuHVq8fQVhBFnrx7ok8JKJY=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sch001_kavita",
+      "first_name": "Kavita",
+      "last_name": "Singh",
+      "email": "sch001_kavita@school.internal",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-26T12:11:52.119Z",
+      "role": "teacher",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "accounts.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$8pGLzsioKOERy8nMSUQEZi$xeP6r5Udp+g2vrlvAAYbhRb8kxX8hs+5UAaeUeC/7qw=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "sch001_piyush",
+      "first_name": "piyush",
+      "last_name": "Raj",
+      "email": "sch001_piyush@school.internal",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2026-10-26T12:18:25.190Z",
+      "role": "teacher",
+      "phone": null,
+      "school": 1,
+      "avatar": "",
+      "raw_password": "",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "schools.school",
+    "pk": 1,
+    "fields": {
+      "name": "St. Xavier's International Academy",
+      "code": "SCH001",
+      "affiliation_number": "CBSE-983214",
+      "address": "Plot 45, Knowledge Park III, Silicon Expressway",
+      "city": "New Delhi",
+      "state": "Delhi NCR",
+      "postal_code": "110001",
+      "phone": "+91 98765 43210",
+      "email": "principal@stxaviers.edu",
+      "website": "https://stxaviers.edu",
+      "principal_name": "Dr. Robert Vance",
+      "logo": "",
+      "status": "active",
+      "subscription_plan": "premium",
+      "card_price": "55.00",
+      "created_at": "2026-09-12T09:10:15.612Z",
+      "updated_at": "2026-11-02T12:17:46.767Z"
+    }
+  },
+  {
+    "model": "schools.school",
+    "pk": 2,
+    "fields": {
+      "name": "Sardar Patel +2 High School",
+      "code": "SCH35FB91",
+      "affiliation_number": "",
+      "address": null,
+      "city": "Giridih",
+      "state": "Jharkhand",
+      "postal_code": null,
+      "phone": "8767578769",
+      "email": "",
+      "website": null,
+      "principal_name": "Mr.Kailash Mahto",
+      "logo": "",
+      "status": "active",
+      "subscription_plan": "standard",
+      "card_price": "50.00",
+      "created_at": "2026-09-12T10:11:40.537Z",
+      "updated_at": "2026-09-12T10:11:40.537Z"
+    }
+  },
+  {
+    "model": "academics.academicsession",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "name": "2025-2026",
+      "start_date": "2025-04-01",
+      "end_date": "2026-03-31",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:16.341Z"
+    }
+  },
+  {
+    "model": "academics.academicsession",
+    "pk": 2,
+    "fields": {
+      "school": 2,
+      "name": "2025-2026",
+      "start_date": null,
+      "end_date": null,
+      "is_active": true,
+      "created_at": "2026-10-10T06:08:21.728Z"
+    }
+  },
+  {
+    "model": "academics.academicsession",
+    "pk": 3,
+    "fields": {
+      "school": 1,
+      "name": "2026-2027",
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "is_active": false,
+      "created_at": "2026-11-23T14:10:00.000Z"
+    }
+  },
+  {
+    "model": "academics.academicsession",
+    "pk": 4,
+    "fields": {
+      "school": 2,
+      "name": "2026-2027",
+      "start_date": "2026-04-01",
+      "end_date": "2027-03-31",
+      "is_active": false,
+      "created_at": "2026-11-23T14:10:00.000Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "name": "Class 9",
+      "order": 1,
+      "created_at": "2026-09-12T09:10:16.350Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 2,
+    "fields": {
+      "school": 1,
+      "name": "Class 10",
+      "order": 2,
+      "created_at": "2026-09-12T09:10:16.380Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 3,
+    "fields": {
+      "school": 1,
+      "name": "Class 11",
+      "order": 3,
+      "created_at": "2026-09-12T09:10:16.409Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 4,
+    "fields": {
+      "school": 1,
+      "name": "Class 12",
+      "order": 4,
+      "created_at": "2026-09-12T09:10:16.437Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 5,
+    "fields": {
+      "school": 2,
+      "name": "Class 9",
+      "order": 9,
+      "created_at": "2026-10-10T06:08:21.746Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 6,
+    "fields": {
+      "school": 2,
+      "name": "Class 10",
+      "order": 10,
+      "created_at": "2026-10-10T06:08:21.755Z"
+    }
+  },
+  {
+    "model": "academics.classlevel",
+    "pk": 7,
+    "fields": {
+      "school": 1,
+      "name": "Class - 5",
+      "order": 3,
+      "created_at": "2026-10-26T06:43:20.883Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "class_level": 1,
+      "name": "A",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.359Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 2,
+    "fields": {
+      "school": 1,
+      "class_level": 1,
+      "name": "B",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.369Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 3,
+    "fields": {
+      "school": 1,
+      "class_level": 2,
+      "name": "A",
+      "teacher": 1,
+      "created_at": "2026-09-12T09:10:16.390Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 4,
+    "fields": {
+      "school": 1,
+      "class_level": 2,
+      "name": "B",
+      "teacher": 2,
+      "created_at": "2026-09-12T09:10:16.400Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 5,
+    "fields": {
+      "school": 1,
+      "class_level": 3,
+      "name": "A",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.419Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 6,
+    "fields": {
+      "school": 1,
+      "class_level": 3,
+      "name": "B",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.429Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 7,
+    "fields": {
+      "school": 1,
+      "class_level": 4,
+      "name": "A",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.450Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 8,
+    "fields": {
+      "school": 1,
+      "class_level": 4,
+      "name": "B",
+      "teacher": null,
+      "created_at": "2026-09-12T09:10:16.459Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 9,
+    "fields": {
+      "school": 2,
+      "class_level": 5,
+      "name": "A",
+      "teacher": null,
+      "created_at": "2026-10-10T06:08:21.764Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 10,
+    "fields": {
+      "school": 2,
+      "class_level": 5,
+      "name": "B",
+      "teacher": null,
+      "created_at": "2026-10-10T06:08:21.777Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 11,
+    "fields": {
+      "school": 2,
+      "class_level": 6,
+      "name": "A",
+      "teacher": null,
+      "created_at": "2026-10-10T06:08:21.788Z"
+    }
+  },
+  {
+    "model": "academics.section",
+    "pk": 12,
+    "fields": {
+      "school": 2,
+      "class_level": 6,
+      "name": "B",
+      "teacher": null,
+      "created_at": "2026-10-10T06:08:21.796Z"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 1,
+    "fields": {
+      "user": [
+        "teacher_sarah"
+      ],
+      "school": 1,
+      "employee_id": "EMP-0101",
+      "designation": "Senior Faculty",
+      "qualification": "M.Sc Mathematics",
+      "phone": "+91 91234 56789",
+      "address": null,
+      "joining_date": null,
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.103Z"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 2,
+    "fields": {
+      "user": [
+        "teacher_alan"
+      ],
+      "school": 1,
+      "employee_id": "EMP-0102",
+      "designation": "HOD Computer Science",
+      "qualification": "M.Tech Computer Science",
+      "phone": "9876543210",
+      "address": null,
+      "joining_date": null,
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.729Z"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 3,
+    "fields": {
+      "user": [
+        "sch001_sarah"
+      ],
+      "school": 1,
+      "employee_id": "TCH-003",
+      "designation": "Teacher",
+      "qualification": null,
+      "phone": "9876543210",
+      "address": null,
+      "joining_date": null,
+      "is_active": true,
+      "created_at": "2026-10-26T12:05:54.585Z"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 4,
+    "fields": {
+      "user": [
+        "sch001_kavita"
+      ],
+      "school": 1,
+      "employee_id": "TCH-004",
+      "designation": "Faculty Teacher",
+      "qualification": "",
+      "phone": "",
+      "address": null,
+      "joining_date": null,
+      "is_active": true,
+      "created_at": "2026-10-26T12:11:52.377Z"
+    }
+  },
+  {
+    "model": "teachers.teacher",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "sch001_piyush"
+      ],
+      "school": 1,
+      "employee_id": "TCH-005",
+      "designation": "Faculty Teacher",
+      "qualification": "data analysist",
+      "phone": "",
+      "address": null,
+      "joining_date": null,
+      "is_active": true,
+      "created_at": "2026-10-26T12:18:31.760Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-001",
+      "roll_number": "101",
+      "first_name": "Aarav",
+      "last_name": "Sharma",
+      "gender": "Male",
+      "dob": "2010-05-14",
+      "blood_group": "O+",
+      "father_name": "Vikram Sharma",
+      "mother_name": "Pooja Sharma",
+      "emergency_contact": "+91 98111 22233",
+      "address": "402, Lotus Towers, Mayur Vihar, Delhi",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 2,
+      "current_section": 3,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.750Z",
+      "updated_at": "2026-09-12T09:10:17.750Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 2,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-002",
+      "roll_number": "102",
+      "first_name": "Diya",
+      "last_name": "Patel",
+      "gender": "Female",
+      "dob": "2010-08-22",
+      "blood_group": "B+",
+      "father_name": "Ketan Patel",
+      "mother_name": "Bhavna Patel",
+      "emergency_contact": "+91 98222 33344",
+      "address": "12, Sunrise Residency, Noida Sec 62",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 2,
+      "current_section": 3,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.769Z",
+      "updated_at": "2026-09-12T09:10:17.769Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 3,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-003",
+      "roll_number": "103",
+      "first_name": "Kabir",
+      "last_name": "Mehta",
+      "gender": "Male",
+      "dob": "2010-02-18",
+      "blood_group": "A+",
+      "father_name": "Sunil Mehta",
+      "mother_name": "Geeta Mehta",
+      "emergency_contact": "+91 98333 44455",
+      "address": "A-89, Green Park, South Delhi",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 2,
+      "current_section": 3,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.792Z",
+      "updated_at": "2026-09-12T09:10:17.792Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 4,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-004",
+      "roll_number": "104",
+      "first_name": "Ananya",
+      "last_name": "Iyer",
+      "gender": "Female",
+      "dob": "2010-11-05",
+      "blood_group": "AB+",
+      "father_name": "Raman Iyer",
+      "mother_name": "Lakshmi Iyer",
+      "emergency_contact": "+91 98444 55566",
+      "address": "C-104, Palm Greens, Gurugram",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 2,
+      "current_section": 4,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.815Z",
+      "updated_at": "2026-09-12T09:10:17.815Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 5,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-005",
+      "roll_number": "105",
+      "first_name": "Rohan",
+      "last_name": "Verma",
+      "gender": "Male",
+      "dob": "2010-09-30",
+      "blood_group": "O-",
+      "father_name": "Rajesh Verma",
+      "mother_name": "Suman Verma",
+      "emergency_contact": "+91 98555 66677",
+      "address": "Flat 5B, Golf View Apartments, Noida",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 2,
+      "current_section": 4,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.840Z",
+      "updated_at": "2026-09-12T09:10:17.840Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 6,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-006",
+      "roll_number": "901",
+      "first_name": "Ishaan",
+      "last_name": "Gupta",
+      "gender": "Male",
+      "dob": "2011-04-12",
+      "blood_group": "B-",
+      "father_name": "Manoj Gupta",
+      "mother_name": "Renu Gupta",
+      "emergency_contact": "+91 98666 77788",
+      "address": "77, Vasant Kunj Enclave, New Delhi",
+      "photo": "student_photos/school_1/c66dc4682a6c.jpeg",
+      "current_session": 1,
+      "current_class": 1,
+      "current_section": 1,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.860Z",
+      "updated_at": "2026-10-26T06:32:52.396Z"
+    }
+  },
+  {
+    "model": "students.student",
+    "pk": 7,
+    "fields": {
+      "school": 1,
+      "admission_number": "ADM-2025-007",
+      "roll_number": "902",
+      "first_name": "Meera",
+      "last_name": "Nair",
+      "gender": "Female",
+      "dob": "2011-07-19",
+      "blood_group": "A-",
+      "father_name": "Unni Nair",
+      "mother_name": "Sindhu Nair",
+      "emergency_contact": "+91 98777 88899",
+      "address": "Tower 3, Supertech Capetown, Noida",
+      "photo": "",
+      "current_session": 1,
+      "current_class": 1,
+      "current_section": 1,
+      "id_card_status": "printed",
+      "is_active": true,
+      "created_at": "2026-09-12T09:10:17.883Z",
+      "updated_at": "2026-09-12T09:10:17.883Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 1,
+    "fields": {
+      "student": 1,
+      "session": 1,
+      "class_level": 2,
+      "section": 3,
+      "roll_number": "101",
+      "created_at": "2026-09-12T09:10:17.760Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 2,
+    "fields": {
+      "student": 2,
+      "session": 1,
+      "class_level": 2,
+      "section": 3,
+      "roll_number": "102",
+      "created_at": "2026-09-12T09:10:17.782Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 3,
+    "fields": {
+      "student": 3,
+      "session": 1,
+      "class_level": 2,
+      "section": 3,
+      "roll_number": "103",
+      "created_at": "2026-09-12T09:10:17.803Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 4,
+    "fields": {
+      "student": 4,
+      "session": 1,
+      "class_level": 2,
+      "section": 4,
+      "roll_number": "104",
+      "created_at": "2026-09-12T09:10:17.826Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 5,
+    "fields": {
+      "student": 5,
+      "session": 1,
+      "class_level": 2,
+      "section": 4,
+      "roll_number": "105",
+      "created_at": "2026-09-12T09:10:17.850Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 6,
+    "fields": {
+      "student": 6,
+      "session": 1,
+      "class_level": 1,
+      "section": 1,
+      "roll_number": "901",
+      "created_at": "2026-09-12T09:10:17.873Z"
+    }
+  },
+  {
+    "model": "students.studentsessionhistory",
+    "pk": 7,
+    "fields": {
+      "student": 7,
+      "session": 1,
+      "class_level": 1,
+      "section": 1,
+      "roll_number": "902",
+      "created_at": "2026-09-12T09:10:17.893Z"
+    }
+  },
+  {
+    "model": "payments.payment",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "amount": "18000.00",
+      "payment_date": "2025-04-15",
+      "transaction_id": "TXN-9842105432",
+      "payment_mode": "UPI",
+      "status": "completed",
+      "receipt_number": "REC-2025-001",
+      "description": "Payment for 300 Smart RFID ID Cards batch",
+      "created_at": "2026-09-12T09:10:17.925Z"
+    }
+  },
+  {
+    "model": "idcards.idcardtemplate",
+    "pk": 1,
+    "fields": {
+      "school": 1,
+      "name": "Modern Indigo Elite",
+      "layout": "vertical",
+      "primary_color": "#4f46e5",
+      "secondary_color": "#06b6d4",
+      "header_background": "#1e1b4b",
+      "show_blood_group": true,
+      "show_emergency_contact": true,
+      "show_barcode": true,
+      "show_address": true,
+      "is_default": true,
+      "created_at": "2026-09-12T09:10:17.901Z"
+    }
+  },
+  {
+    "model": "idcards.idcardtemplate",
+    "pk": 2,
+    "fields": {
+      "school": 1,
+      "name": "Classic Emerald Accent",
+      "layout": "vertical",
+      "primary_color": "#059669",
+      "secondary_color": "#10b981",
+      "header_background": "#064e3b",
+      "show_blood_group": true,
+      "show_emergency_contact": true,
+      "show_barcode": true,
+      "show_address": true,
+      "is_default": false,
+      "created_at": "2026-09-12T09:10:17.912Z"
+    }
   }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$13pdoMS99B6bx1S5SNMHoo$MMbJPycQON/hQUdp382/HlH1pHAwEcbh7onJhWs67RE=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "school_sch001",
-    "first_name": "Dr. Robert",
-    "last_name": "Vance",
-    "email": "admin@stxaviers.edu",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-09-12T09:10:15.623Z",
-    "role": "school",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "school123",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$D7wW90fthaF8w0ob74qxSd$JevczsbFB2f5Nj0bFaVlMPV5OX5JyITHv2Ir1uDFKWU=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "teacher_sarah",
-    "first_name": "Sarah",
-    "last_name": "Jenkins",
-    "email": "sarah.jenkins@stxaviers.edu",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-09-12T09:10:16.466Z",
-    "role": "teacher",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$9E6zFBHD2sUpeQmJ0zPYZm$ZyH7PEGQIrZdUCsVrs5EGKwcFRg8cV01gCRRSDAmxSc=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "teacher_alan",
-    "first_name": "Alan",
-    "last_name": "Turing II",
-    "email": "alan.turing@stxaviers.edu",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-09-12T09:10:17.123Z",
-    "role": "teacher",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$870000$5KjxuGWhKxmKbXcZrqZs3D$hX7enXiGwZepZ3L+bTbMxPhpVXZmDJnQ7lm89biIJM4=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "school_sp",
-    "first_name": "Mr.Kailash Mahto",
-    "last_name": "",
-    "email": "",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-09-12T10:11:40.561Z",
-    "role": "school",
-    "phone": null,
-    "school": 2,
-    "avatar": "",
-    "raw_password": "school123",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$y8gdmwc58yugKqaiKHcHRr$Q+B3Q5h/2X+gyoKYA4WFIlDMM0HJj1enAIeYLG1xTOY=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "sch001_sarah",
-    "first_name": "Sarah",
-    "last_name": "Jenkins",
-    "email": "sch001_sarah@school.internal",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-10-26T12:05:54.395Z",
-    "role": "teacher",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$gArDgeRnJtnluvy9d9KbsG$Abum+WzGUg4akJxqDg4JIuHVq8fQVhBFnrx7ok8JKJY=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "sch001_kavita",
-    "first_name": "Kavita",
-    "last_name": "Singh",
-    "email": "sch001_kavita@school.internal",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-10-26T12:11:52.119Z",
-    "role": "teacher",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "accounts.user",
-  "fields": {
-    "password": "pbkdf2_sha256$1000000$8pGLzsioKOERy8nMSUQEZi$xeP6r5Udp+g2vrlvAAYbhRb8kxX8hs+5UAaeUeC/7qw=",
-    "last_login": null,
-    "is_superuser": false,
-    "username": "sch001_piyush",
-    "first_name": "piyush",
-    "last_name": "Raj",
-    "email": "sch001_piyush@school.internal",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2026-10-26T12:18:25.190Z",
-    "role": "teacher",
-    "phone": null,
-    "school": 1,
-    "avatar": "",
-    "raw_password": "",
-    "groups": [],
-    "user_permissions": []
-  }
-},
-{
-  "model": "schools.school",
-  "pk": 1,
-  "fields": {
-    "name": "St. Xavier's International Academy",
-    "code": "SCH001",
-    "affiliation_number": "CBSE-983214",
-    "address": "Plot 45, Knowledge Park III, Silicon Expressway",
-    "city": "New Delhi",
-    "state": "Delhi NCR",
-    "postal_code": "110001",
-    "phone": "+91 98765 43210",
-    "email": "principal@stxaviers.edu",
-    "website": "https://stxaviers.edu",
-    "principal_name": "Dr. Robert Vance",
-    "logo": "",
-    "status": "active",
-    "subscription_plan": "premium",
-    "card_price": "55.00",
-    "created_at": "2026-09-12T09:10:15.612Z",
-    "updated_at": "2026-11-02T12:17:46.767Z"
-  }
-},
-{
-  "model": "schools.school",
-  "pk": 2,
-  "fields": {
-    "name": "Sardar Patel +2 High School",
-    "code": "SCH35FB91",
-    "affiliation_number": "",
-    "address": null,
-    "city": "Giridih",
-    "state": "Jharkhand",
-    "postal_code": null,
-    "phone": "8767578769",
-    "email": "",
-    "website": null,
-    "principal_name": "Mr.Kailash Mahto",
-    "logo": "",
-    "status": "active",
-    "subscription_plan": "standard",
-    "card_price": "50.00",
-    "created_at": "2026-09-12T10:11:40.537Z",
-    "updated_at": "2026-09-12T10:11:40.537Z"
-  }
-},
-{
-  "model": "academics.academicsession",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "name": "2025-2026",
-    "start_date": "2025-04-01",
-    "end_date": "2026-03-31",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:16.341Z"
-  }
-},
-{
-  "model": "academics.academicsession",
-  "pk": 2,
-  "fields": {
-    "school": 2,
-    "name": "2025-2026",
-    "start_date": null,
-    "end_date": null,
-    "is_active": true,
-    "created_at": "2026-10-10T06:08:21.728Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "name": "Class 9",
-    "order": 1,
-    "created_at": "2026-09-12T09:10:16.350Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 2,
-  "fields": {
-    "school": 1,
-    "name": "Class 10",
-    "order": 2,
-    "created_at": "2026-09-12T09:10:16.380Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 3,
-  "fields": {
-    "school": 1,
-    "name": "Class 11",
-    "order": 3,
-    "created_at": "2026-09-12T09:10:16.409Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 4,
-  "fields": {
-    "school": 1,
-    "name": "Class 12",
-    "order": 4,
-    "created_at": "2026-09-12T09:10:16.437Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 5,
-  "fields": {
-    "school": 2,
-    "name": "Class 9",
-    "order": 9,
-    "created_at": "2026-10-10T06:08:21.746Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 6,
-  "fields": {
-    "school": 2,
-    "name": "Class 10",
-    "order": 10,
-    "created_at": "2026-10-10T06:08:21.755Z"
-  }
-},
-{
-  "model": "academics.classlevel",
-  "pk": 7,
-  "fields": {
-    "school": 1,
-    "name": "Class - 5",
-    "order": 3,
-    "created_at": "2026-10-26T06:43:20.883Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "class_level": 1,
-    "name": "A",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.359Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 2,
-  "fields": {
-    "school": 1,
-    "class_level": 1,
-    "name": "B",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.369Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 3,
-  "fields": {
-    "school": 1,
-    "class_level": 2,
-    "name": "A",
-    "teacher": 1,
-    "created_at": "2026-09-12T09:10:16.390Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 4,
-  "fields": {
-    "school": 1,
-    "class_level": 2,
-    "name": "B",
-    "teacher": 2,
-    "created_at": "2026-09-12T09:10:16.400Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 5,
-  "fields": {
-    "school": 1,
-    "class_level": 3,
-    "name": "A",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.419Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 6,
-  "fields": {
-    "school": 1,
-    "class_level": 3,
-    "name": "B",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.429Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 7,
-  "fields": {
-    "school": 1,
-    "class_level": 4,
-    "name": "A",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.450Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 8,
-  "fields": {
-    "school": 1,
-    "class_level": 4,
-    "name": "B",
-    "teacher": null,
-    "created_at": "2026-09-12T09:10:16.459Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 9,
-  "fields": {
-    "school": 2,
-    "class_level": 5,
-    "name": "A",
-    "teacher": null,
-    "created_at": "2026-10-10T06:08:21.764Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 10,
-  "fields": {
-    "school": 2,
-    "class_level": 5,
-    "name": "B",
-    "teacher": null,
-    "created_at": "2026-10-10T06:08:21.777Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 11,
-  "fields": {
-    "school": 2,
-    "class_level": 6,
-    "name": "A",
-    "teacher": null,
-    "created_at": "2026-10-10T06:08:21.788Z"
-  }
-},
-{
-  "model": "academics.section",
-  "pk": 12,
-  "fields": {
-    "school": 2,
-    "class_level": 6,
-    "name": "B",
-    "teacher": null,
-    "created_at": "2026-10-10T06:08:21.796Z"
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 1,
-  "fields": {
-    "user": [
-      "teacher_sarah"
-    ],
-    "school": 1,
-    "employee_id": "EMP-0101",
-    "designation": "Senior Faculty",
-    "qualification": "M.Sc Mathematics",
-    "phone": "+91 91234 56789",
-    "address": null,
-    "joining_date": null,
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.103Z"
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 2,
-  "fields": {
-    "user": [
-      "teacher_alan"
-    ],
-    "school": 1,
-    "employee_id": "EMP-0102",
-    "designation": "HOD Computer Science",
-    "qualification": "M.Tech Computer Science",
-    "phone": "9876543210",
-    "address": null,
-    "joining_date": null,
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.729Z"
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 3,
-  "fields": {
-    "user": [
-      "sch001_sarah"
-    ],
-    "school": 1,
-    "employee_id": "TCH-003",
-    "designation": "Teacher",
-    "qualification": null,
-    "phone": "9876543210",
-    "address": null,
-    "joining_date": null,
-    "is_active": true,
-    "created_at": "2026-10-26T12:05:54.585Z"
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 4,
-  "fields": {
-    "user": [
-      "sch001_kavita"
-    ],
-    "school": 1,
-    "employee_id": "TCH-004",
-    "designation": "Faculty Teacher",
-    "qualification": "",
-    "phone": "",
-    "address": null,
-    "joining_date": null,
-    "is_active": true,
-    "created_at": "2026-10-26T12:11:52.377Z"
-  }
-},
-{
-  "model": "teachers.teacher",
-  "pk": 5,
-  "fields": {
-    "user": [
-      "sch001_piyush"
-    ],
-    "school": 1,
-    "employee_id": "TCH-005",
-    "designation": "Faculty Teacher",
-    "qualification": "data analysist",
-    "phone": "",
-    "address": null,
-    "joining_date": null,
-    "is_active": true,
-    "created_at": "2026-10-26T12:18:31.760Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-001",
-    "roll_number": "101",
-    "first_name": "Aarav",
-    "last_name": "Sharma",
-    "gender": "Male",
-    "dob": "2010-05-14",
-    "blood_group": "O+",
-    "father_name": "Vikram Sharma",
-    "mother_name": "Pooja Sharma",
-    "emergency_contact": "+91 98111 22233",
-    "address": "402, Lotus Towers, Mayur Vihar, Delhi",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 2,
-    "current_section": 3,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.750Z",
-    "updated_at": "2026-09-12T09:10:17.750Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 2,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-002",
-    "roll_number": "102",
-    "first_name": "Diya",
-    "last_name": "Patel",
-    "gender": "Female",
-    "dob": "2010-08-22",
-    "blood_group": "B+",
-    "father_name": "Ketan Patel",
-    "mother_name": "Bhavna Patel",
-    "emergency_contact": "+91 98222 33344",
-    "address": "12, Sunrise Residency, Noida Sec 62",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 2,
-    "current_section": 3,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.769Z",
-    "updated_at": "2026-09-12T09:10:17.769Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 3,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-003",
-    "roll_number": "103",
-    "first_name": "Kabir",
-    "last_name": "Mehta",
-    "gender": "Male",
-    "dob": "2010-02-18",
-    "blood_group": "A+",
-    "father_name": "Sunil Mehta",
-    "mother_name": "Geeta Mehta",
-    "emergency_contact": "+91 98333 44455",
-    "address": "A-89, Green Park, South Delhi",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 2,
-    "current_section": 3,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.792Z",
-    "updated_at": "2026-09-12T09:10:17.792Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 4,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-004",
-    "roll_number": "104",
-    "first_name": "Ananya",
-    "last_name": "Iyer",
-    "gender": "Female",
-    "dob": "2010-11-05",
-    "blood_group": "AB+",
-    "father_name": "Raman Iyer",
-    "mother_name": "Lakshmi Iyer",
-    "emergency_contact": "+91 98444 55566",
-    "address": "C-104, Palm Greens, Gurugram",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 2,
-    "current_section": 4,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.815Z",
-    "updated_at": "2026-09-12T09:10:17.815Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 5,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-005",
-    "roll_number": "105",
-    "first_name": "Rohan",
-    "last_name": "Verma",
-    "gender": "Male",
-    "dob": "2010-09-30",
-    "blood_group": "O-",
-    "father_name": "Rajesh Verma",
-    "mother_name": "Suman Verma",
-    "emergency_contact": "+91 98555 66677",
-    "address": "Flat 5B, Golf View Apartments, Noida",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 2,
-    "current_section": 4,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.840Z",
-    "updated_at": "2026-09-12T09:10:17.840Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 6,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-006",
-    "roll_number": "901",
-    "first_name": "Ishaan",
-    "last_name": "Gupta",
-    "gender": "Male",
-    "dob": "2011-04-12",
-    "blood_group": "B-",
-    "father_name": "Manoj Gupta",
-    "mother_name": "Renu Gupta",
-    "emergency_contact": "+91 98666 77788",
-    "address": "77, Vasant Kunj Enclave, New Delhi",
-    "photo": "student_photos/school_1/c66dc4682a6c.jpeg",
-    "current_session": 1,
-    "current_class": 1,
-    "current_section": 1,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.860Z",
-    "updated_at": "2026-10-26T06:32:52.396Z"
-  }
-},
-{
-  "model": "students.student",
-  "pk": 7,
-  "fields": {
-    "school": 1,
-    "admission_number": "ADM-2025-007",
-    "roll_number": "902",
-    "first_name": "Meera",
-    "last_name": "Nair",
-    "gender": "Female",
-    "dob": "2011-07-19",
-    "blood_group": "A-",
-    "father_name": "Unni Nair",
-    "mother_name": "Sindhu Nair",
-    "emergency_contact": "+91 98777 88899",
-    "address": "Tower 3, Supertech Capetown, Noida",
-    "photo": "",
-    "current_session": 1,
-    "current_class": 1,
-    "current_section": 1,
-    "id_card_status": "printed",
-    "is_active": true,
-    "created_at": "2026-09-12T09:10:17.883Z",
-    "updated_at": "2026-09-12T09:10:17.883Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 1,
-  "fields": {
-    "student": 1,
-    "session": 1,
-    "class_level": 2,
-    "section": 3,
-    "roll_number": "101",
-    "created_at": "2026-09-12T09:10:17.760Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 2,
-  "fields": {
-    "student": 2,
-    "session": 1,
-    "class_level": 2,
-    "section": 3,
-    "roll_number": "102",
-    "created_at": "2026-09-12T09:10:17.782Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 3,
-  "fields": {
-    "student": 3,
-    "session": 1,
-    "class_level": 2,
-    "section": 3,
-    "roll_number": "103",
-    "created_at": "2026-09-12T09:10:17.803Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 4,
-  "fields": {
-    "student": 4,
-    "session": 1,
-    "class_level": 2,
-    "section": 4,
-    "roll_number": "104",
-    "created_at": "2026-09-12T09:10:17.826Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 5,
-  "fields": {
-    "student": 5,
-    "session": 1,
-    "class_level": 2,
-    "section": 4,
-    "roll_number": "105",
-    "created_at": "2026-09-12T09:10:17.850Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 6,
-  "fields": {
-    "student": 6,
-    "session": 1,
-    "class_level": 1,
-    "section": 1,
-    "roll_number": "901",
-    "created_at": "2026-09-12T09:10:17.873Z"
-  }
-},
-{
-  "model": "students.studentsessionhistory",
-  "pk": 7,
-  "fields": {
-    "student": 7,
-    "session": 1,
-    "class_level": 1,
-    "section": 1,
-    "roll_number": "902",
-    "created_at": "2026-09-12T09:10:17.893Z"
-  }
-},
-{
-  "model": "payments.payment",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "amount": "18000.00",
-    "payment_date": "2025-04-15",
-    "transaction_id": "TXN-9842105432",
-    "payment_mode": "UPI",
-    "status": "completed",
-    "receipt_number": "REC-2025-001",
-    "description": "Payment for 300 Smart RFID ID Cards batch",
-    "created_at": "2026-09-12T09:10:17.925Z"
-  }
-},
-{
-  "model": "idcards.idcardtemplate",
-  "pk": 1,
-  "fields": {
-    "school": 1,
-    "name": "Modern Indigo Elite",
-    "layout": "vertical",
-    "primary_color": "#4f46e5",
-    "secondary_color": "#06b6d4",
-    "header_background": "#1e1b4b",
-    "show_blood_group": true,
-    "show_emergency_contact": true,
-    "show_barcode": true,
-    "show_address": true,
-    "is_default": true,
-    "created_at": "2026-09-12T09:10:17.901Z"
-  }
-},
-{
-  "model": "idcards.idcardtemplate",
-  "pk": 2,
-  "fields": {
-    "school": 1,
-    "name": "Classic Emerald Accent",
-    "layout": "vertical",
-    "primary_color": "#059669",
-    "secondary_color": "#10b981",
-    "header_background": "#064e3b",
-    "show_blood_group": true,
-    "show_emergency_contact": true,
-    "show_barcode": true,
-    "show_address": true,
-    "is_default": false,
-    "created_at": "2026-09-12T09:10:17.912Z"
-  }
-}
 ]
